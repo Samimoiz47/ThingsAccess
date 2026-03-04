@@ -48,5 +48,6 @@
     </main>
 
     @include('partials.footer')
+    @include('partials.analytics')
 </body>
 </html>
