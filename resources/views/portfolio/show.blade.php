@@ -23,7 +23,7 @@
 <body class="bg-black text-white">
 
     <!-- Background -->
-    <div class="fixed inset-0 w-full h-full overflow-hidden -z-50 bg-black pointer-events-none">
+    <div class="fixed inset-0 w-full h-full overflow-hidden z-0 bg-black pointer-events-none">
         <div class="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
     </div>
 

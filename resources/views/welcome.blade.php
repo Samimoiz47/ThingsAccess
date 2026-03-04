@@ -750,7 +750,7 @@
     </a>
 
     <!-- Background Theme -->
-    <div class="fixed inset-0 w-full h-full overflow-hidden -z-50 bg-black pointer-events-none" aria-hidden="true">
+    <div class="fixed inset-0 w-full h-full overflow-hidden z-0 bg-black pointer-events-none" aria-hidden="true">
         <video autoplay muted loop playsinline class="min-w-full min-h-full w-full h-full object-cover opacity-100" preload="metadata">
             <source src="{{ asset('videos/earth_1.mp4') }}" type="video/mp4">
             <track kind="captions" src="" label="No captions available">
