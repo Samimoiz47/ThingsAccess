@@ -755,8 +755,8 @@
             <source src="{{ asset('videos/earth_1.mp4') }}" type="video/mp4">
             <track kind="captions" src="" label="No captions available">
         </video>
-        <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60 mix-blend-multiply"></div>
-        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/15 via-black/10 to-black/35 mix-blend-multiply"></div>
+        <div class="absolute inset-0 bg-black/8"></div>
     </div>
 
     @include('partials.navbar')
