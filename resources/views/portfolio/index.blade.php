@@ -402,6 +402,7 @@
         });
     </script>
 
+    @include('partials.analytics')
 </body>
 </html>
           letter-spacing: 0px;

@@ -236,5 +236,6 @@
         </div>
     </footer>
 
+    @include('partials.analytics')
 </body>
 </html>

@@ -55,5 +55,6 @@
             &copy; 2026 ThingsAccess Inc. All rights reserved.
         </div>
     </footer>
+    @include('partials.analytics')
 </body>
 </html>
