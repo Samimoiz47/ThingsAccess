@@ -3,8 +3,12 @@
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "env": {
+    "APP_NAME": "Things Access",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
+    "APP_URL": "https://thingsaccess-company-web1.vercel.app",
+    "ASSET_URL": "https://thingsaccess-company-web1.vercel.app",
+    "APP_KEY": "base64:WL2SrAKzxdXk75OH4lcvCU4Gow2wRzYtF7ZDseFbsjA=",
     "CACHE_STORE": "array",
     "SESSION_DRIVER": "cookie",
     "LOG_CHANNEL": "stderr"

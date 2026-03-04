@@ -17,7 +17,7 @@ class ImageHelper
         ];
 
         $attrs = array_merge($defaults, $attributes);
-        $imageUrl = asset($path);
+        $imageUrl = self::assetUrl($path);
 
         // Generate WebP version if supported
         $webpUrl = self::getWebPUrl($path);
@@ -61,7 +61,7 @@ class ImageHelper
         $webpPath = preg_replace('/\.(jpg|jpeg|png)$/i', '.webp', $path);
         $fullPath = public_path($webpPath);
 
-        return file_exists($fullPath) ? asset($webpPath) : null;
+        return file_exists($fullPath) ? self::assetUrl($webpPath) : null;
     }
 
     /**
@@ -69,11 +69,11 @@ class ImageHelper
      */
     public static function responsiveImage(string $path, array $sizes = [], string $alt = ''): string
     {
-        $imageUrl = asset($path);
+        $imageUrl = self::assetUrl($path);
         $srcset = [];
 
         foreach ($sizes as $size => $width) {
-            $srcset[] = asset($path) . ' ' . $width . 'w';
+            $srcset[] = self::assetUrl($path) . ' ' . $width . 'w';
         }
 
         $html = '<img src="' . $imageUrl . '"';
@@ -85,5 +85,13 @@ class ImageHelper
         $html .= ' loading="lazy" decoding="async">';
 
         return $html;
+    }
+
+    /**
+     * Build a safe asset URL for HTML attributes like srcset.
+     */
+    private static function assetUrl(string $path): string
+    {
+        return str_replace(' ', '%20', asset($path));
     }
 }
