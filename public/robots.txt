@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /storage/app/
+Disallow: /storage/logs/
+
+# Allow access to CSS, JS, and images
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /videos/
+
+# Sitemap
+Sitemap: https://thingsaccess.com/sitemap.xml

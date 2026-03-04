@@ -1,0 +1,18 @@
+/* Tailwind CSS v4 directives - these are valid but not recognized by standard CSS linters */
+/* The following @source and @theme directives are part of Tailwind CSS v4 and are intentionally not standard CSS */
+@import 'tailwindcss';
+
+/* ScrollReveal Styles */
+.scroll-reveal {
+  margin: 20px 0;
+}
+
+.scroll-reveal-text {
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.word {
+  display: inline-block;
+}
