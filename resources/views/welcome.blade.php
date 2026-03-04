@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Things Access - IoT Solutions & Enterprise Software') }}</title>
@@ -25,7 +27,7 @@
     <!-- Performance & Security -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
-    <link rel="preload" href="{{ asset('images/things access logo.png') }}" as="image" type="image/png">
+    <link rel="preload" href="{{ asset('images/things%20access%20logo.png') }}" as="image" type="image/png">
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css?family=instrument-sans:300,400,500,600,700&display=swap" rel="stylesheet" />
