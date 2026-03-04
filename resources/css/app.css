@@ -30,46 +30,10 @@
     padding: 0.75rem 1rem !important;
   }
 
-  header.fixed.top-0.left-0.right-0 {
-    display: flex !important;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
   #navbar picture img,
   #navbar img.h-12 {
     height: 2.25rem !important;
     width: auto !important;
-  }
-
-  /* Fallback mobile nav for pages that don't implement hamburger menu */
-  header.fixed.top-0.left-0.right-0 nav.hidden.md\:flex {
-    display: flex !important;
-    position: static !important;
-    transform: none !important;
-    left: auto !important;
-    top: auto !important;
-    width: 100%;
-    order: 3;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 0.35rem !important;
-    gap: 0.25rem !important;
-    border-radius: 0.75rem !important;
-  }
-
-  header.fixed.top-0.left-0.right-0 nav.hidden.md\:flex a {
-    padding: 0.45rem 0.75rem !important;
-    font-size: 0.8rem !important;
-    flex-shrink: 0;
-  }
-
-  header.fixed.top-0.left-0.right-0 > a:not(:first-child),
-  header.fixed.top-0.left-0.right-0 > button:not(:first-child) {
-    margin-left: auto;
-    font-size: 0.8rem !important;
-    padding: 0.45rem 0.75rem !important;
   }
 
   #mobile-menu .text-2xl {
