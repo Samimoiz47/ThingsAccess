@@ -635,21 +635,25 @@
           }
 
           .partner-carousel-container .partner-carousel {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
-            gap: 1rem;
-            padding: 1rem;
+            display: grid !important;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.75rem;
+            padding: 0.75rem;
+            transform: none !important;
           }
 
           .partner-slide {
-            flex-shrink: 0;
-            width: 120px;
-            scroll-snap-align: start;
+            width: 100% !important;
+            padding: 0.5rem !important;
           }
 
-          .partner-carousel::after {
+          .partner-slide img {
+            height: 3.5rem !important;
+            opacity: 0.85;
+          }
+
+          /* Hide duplicated slides on mobile */
+          .partner-carousel .partner-slide:nth-child(n+5) {
             display: none;
           }
 
@@ -1982,25 +1986,31 @@
         let currentPartnerSlide = 0;
         const partnerSlides = document.querySelectorAll('.partner-slide');
         const totalPartnerSlides = partnerSlides.length / 2; // Divide by 2 because we duplicated
+        const isMobilePartnerView = () => window.matchMedia('(max-width: 768px)').matches;
 
         function updatePartnerCarousel() {
+            if (isMobilePartnerView() || !partnerSlides.length) return;
             const carousel = document.getElementById('partner-carousel');
             const slideWidth = partnerSlides[0].offsetWidth;
             carousel.style.transform = `translateX(-${currentPartnerSlide * slideWidth}px)`;
         }
 
         function nextPartnerSlide() {
+            if (isMobilePartnerView()) return;
             currentPartnerSlide = (currentPartnerSlide + 1) % totalPartnerSlides;
             updatePartnerCarousel();
         }
 
         function prevPartnerSlide() {
+            if (isMobilePartnerView()) return;
             currentPartnerSlide = (currentPartnerSlide - 1 + totalPartnerSlides) % totalPartnerSlides;
             updatePartnerCarousel();
         }
 
-        // Auto-play partner carousel
-        setInterval(nextPartnerSlide, 3000);
+        // Auto-play partner carousel on desktop/tablet only
+        setInterval(() => {
+            if (!isMobilePartnerView()) nextPartnerSlide();
+        }, 3000);
     </script>
 
 </body>
