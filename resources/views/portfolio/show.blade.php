@@ -35,7 +35,7 @@
             </div>
             <span class="text-xl font-bold">THINGS ACCESS</span>
         </a>
-        <a href="/portfolio" class="text-sm text-gray-400 hover:text-white transition-colors">&larr; Back to Portfolio</a>
+        <a href="/portfolio" class="text-sm text-gray-400 hover:text-white transition-colors">&larr; Back to Solutions</a>
     </header>
 
     <!-- Project Header -->

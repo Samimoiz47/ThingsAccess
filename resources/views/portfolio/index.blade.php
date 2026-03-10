@@ -79,7 +79,7 @@
     <!-- Page Header -->
     <section class="pt-32 pb-16 px-6 relative z-10">
         <div class="max-w-7xl mx-auto text-center">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6">Our Portfolio</h1>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Solutions</h1>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto">Explore our showcase of innovative IoT, enterprise software, and mobile solutions that drive real business transformation.</p>
         </div>
     </section>

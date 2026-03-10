@@ -39,8 +39,7 @@
 <div id="mobile-menu" class="fixed inset-0 z-40 bg-black/95 backdrop-blur-md md:hidden opacity-0 pointer-events-none transition-opacity duration-300" role="dialog" aria-modal="true" aria-label="Mobile navigation menu">
     <div class="flex flex-col items-center justify-center h-full space-y-8">
         <a href="/" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Home</a>
-        <a href="/portfolio" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Portfolio</a>
-        <a href="/expertise" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Solutions</a>
+        <a href="/portfolio" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Solutions</a>
         <a href="/about" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">About</a>
 
         <a href="/contact" class="px-8 py-4 bg-white text-black text-lg font-semibold rounded-full hover:bg-gray-200 transition-colors mt-8">
