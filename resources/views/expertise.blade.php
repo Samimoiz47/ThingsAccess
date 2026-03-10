@@ -39,7 +39,7 @@
     <!-- Background Theme -->
     <div class="fixed inset-0 w-full h-full overflow-hidden z-0 bg-black pointer-events-none" aria-hidden="true">
         <video autoplay muted loop playsinline class="min-w-full min-h-full w-full h-full object-cover opacity-100" preload="metadata">
-            <source src="{{ asset('videos/earth_1.mp4') }}" type="video/mp4">
+            <source src="/videos/earth_1.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-0 bg-gradient-to-b from-black/15 via-black/10 to-black/35 mix-blend-multiply"></div>
         <div class="absolute inset-0 bg-black/8"></div>
