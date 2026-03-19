@@ -343,5 +343,6 @@
         });
     </script>
 
+    @include('partials.analytics')
 </body>
 </html>

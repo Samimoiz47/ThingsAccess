@@ -30,5 +30,6 @@
         </a>
     </main>
 
+    @include('partials.analytics')
 </body>
 </html>

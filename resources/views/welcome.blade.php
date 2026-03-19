@@ -2013,5 +2013,6 @@
         }, 3000);
     </script>
 
+    @include('partials.analytics')
 </body>
 </html>
