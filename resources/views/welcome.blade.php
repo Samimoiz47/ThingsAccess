@@ -771,7 +771,7 @@
             <h1 class="text-4xl md:text-7xl font-bold tracking-tighter leading-tight text-white drop-shadow-2xl mb-6">
                 Things Access
             </h1>
-            <div class="tagline text-lg md:text-2xl text-gray-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed" aria-live="polite" id="tagline"></div>
+            <div class="tagline text-lg md:text-2xl text-gray-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed" aria-live="polite" id="tagline">Seamlessly connecting your physical assets to the digital world. We provide end-to-end IoT frameworks and bespoke software that scale with your ambition.</div>
 
             <div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
                  <a href="/portfolio" class="px-8 py-4 bg-white/5 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full hover:bg-white/10 hover:border-white/40 transition-all flex items-center justify-center gap-2 group min-w-[180px]" aria-label="View our portfolio of projects">
@@ -1105,110 +1105,7 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <!-- <section class="py-24 px-6 max-w-4xl mx-auto text-center z-10 relative">
-        <div class="carousel-container relative">
-            <div class="carousel-track" id="testimonialTrack">
-                <div class="carousel-item">
-                    <div class="text-4xl text-blue-400 mb-6">"</div>
-                    <p class="text-xl md:text-3xl font-light italic leading-relaxed mb-8">
-                       // <span class="scroll-float-text" id="testimonial-text">ThingsAccess transformed  our          logistics operations. The real-time data visibility has increased our         efficiency by 40%  in  just three          months.</span>
-                    </p>
-                    <div> -->
-              /
-
-    <!-- Blog Preview -->
-    <!-- <section id="insights" class="product-showcase py-20 px-6 max-w-7xl mx-auto z-10 relative">
-        <div class="flex justify-between items-end mb-12">
-            <div>
-                <h2 class="scroll-float">
-                    <span class="scroll-float-text" id="insights-text">Latest Insights</span>
-                </h2>
-                <p class="text-gray-400">Trends and analysis from our engineering team</p>
-            </div>
-            <a href="/blog" class="hidden md:inline-flex items-center text-gray-300 hover:text-white transition-colors">View All Articles <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
-        </div>
-
-        <div class="relative" style="overflow: hidden;">
-            <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full z-10 hover:bg-black/70 transition-colors" onclick="scrollLeft1()">&larr;</button>
-            <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full z-10 hover:bg-black/70 transition-colors" onclick="scrollRight1()">&rarr;</button>
-        <div class="insights-showcase grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-12 mb-16" style="display: flex; width: calc(200% + 3rem);" role="list">
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline w-full max-w-sm" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Edge Computing in Manufacturing" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">The Future of Edge Computing in Manufacturing</h3>
-                <p class="text-gray-400 mb-6">How processing data closer to the source is revolutionizing the factory floor. Edge computing enables real-time analytics, reduces latency, and improves operational efficiency in manufacturing environments.</p>
-                <a href="/blog/the-future-of-edge-computing-in-manufacturing" class="text-sm font-medium text-blue-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Scaling Microservices" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">Scaling Microservices for Enterprise</h3>
-                <p class="text-gray-400 mb-6">Best practices for maintaining reliability while scaling your service architecture. Microservices offer flexibility and scalability, but require careful design to ensure system stability.</p>
-                <a href="/blog/scaling-microservices-for-enterprise" class="text-sm font-medium text-purple-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Industrial Internet Design" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">Designing for the Industrial Internet</h3>
-                <p class="text-gray-400 mb-6">UX principles for complex industrial control systems and dashboards. Industrial interfaces require special attention to usability, safety, and efficiency.</p>
-                <a href="/blog/designing-for-the-industrial-internet" class="text-sm font-medium text-emerald-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="AI-Driven Predictive Maintenance" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">AI-Driven Predictive Maintenance</h3>
-                <p class="text-gray-400 mb-6">Leveraging machine learning to predict equipment failures before they occur. AI-driven predictive maintenance uses sensor data and historical patterns to forecast maintenance needs.</p>
-                <a href="/blog/ai-driven-predictive-maintenance" class="text-sm font-medium text-red-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Edge Computing in Manufacturing" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">The Future of Edge Computing in Manufacturing</h3>
-                <p class="text-gray-400 mb-6">How processing data closer to the source is revolutionizing the factory floor. Edge computing enables real-time analytics, reduces latency, and improves operational efficiency in manufacturing environments.</p>
-                <a href="/blog/the-future-of-edge-computing-in-manufacturing" class="text-sm font-medium text-blue-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Scaling Microservices" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">Scaling Microservices for Enterprise</h3>
-                <p class="text-gray-400 mb-6">Best practices for maintaining reliability while scaling your service architecture. Microservices offer flexibility and scalability, but require careful design to ensure system stability.</p>
-                <a href="/blog/scaling-microservices-for-enterprise" class="text-sm font-medium text-purple-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Industrial Internet Design" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">Designing for the Industrial Internet</h3>
-                <p class="text-gray-400 mb-6">UX principles for complex industrial control systems and dashboards. Industrial interfaces require special attention to usability, safety, and efficiency.</p>
-                <a href="/blog/designing-for-the-industrial-internet" class="text-sm font-medium text-emerald-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-            <article class="glass-card rounded-2xl p-8 flex flex-col items-start group hover:no-underline" style="width: 300px;" role="listitem">
-                <div class="w-full h-32 mb-6 rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="AI-Driven Predictive Maintenance" class="w-full h-full object-cover">
-                </div>
-                <h3 class="text-2xl font-bold mb-3">AI-Driven Predictive Maintenance</h3>
-                <p class="text-gray-400 mb-6">Leveraging machine learning to predict equipment failures before they occur. AI-driven predictive maintenance uses sensor data and historical patterns to forecast maintenance needs.</p>
-                <a href="/blog/ai-driven-predictive-maintenance" class="text-sm font-medium text-red-300 group-hover:text-white flex items-center gap-1">Read Article <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a>
-            </article>
-        </div>
-
-        <!-- Newsletter CTA -->
-        <div class="glass-panel p-8 md:p-10 rounded-2xl text-center max-w-3xl mx-auto bg-gradient-to-r from-blue-900/10 to-purple-900/10 border border-white/10">
-            <h3 class="text-2xl font-bold mb-3">Subscribe to Our Newsletter</h3>
-            <p class="text-gray-400 mb-6 text-sm">Get the latest IoT and software insights delivered to your inbox.</p>
-            <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input type="email" placeholder="Email address" class="flex-grow px-5 py-3 bg-black/40 border border-white/10 rounded-full text-white text-sm focus:outline-none focus:border-white/30 transition-colors">
-                <button type="button" class="px-6 py-3 bg-white text-black text-sm font-bold rounded-full hover:bg-gray-200 transition-colors shadow-[0_0_15px_rgba(255,255,255,0.2)]">Subscribe</button>
-            </form>
-        </div>
-    <!-- </section> --> -->
+    <!-- Deprecated/legacy testimonial and insights blocks removed to keep homepage markup valid. -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-20 px-6 relative z-10 bg-white/5">
@@ -1610,6 +1507,7 @@
         const dots = document.querySelectorAll('button[onclick^="showTestimonial"]');
 
         function showTestimonial(index) {
+            if (!items.length || !dots.length) return;
             items[currentTestimonial].classList.add('hidden');
             dots[currentTestimonial].style.opacity = '0.3';
             
@@ -1679,7 +1577,8 @@
         document.addEventListener('DOMContentLoaded', function() {
             const taglineElement = document.getElementById('tagline');
             if (taglineElement) {
-            const text = "Seamlessly connecting your physical assets to the digital world. We provide end-to-end IoT frameworks and be spoke software that scale with your ambition.";
+            const text = "Seamlessly connecting your physical assets to the digital world. We provide end-to-end IoT frameworks and bespoke software that scale with your ambition.";
+                taglineElement.textContent = '';
                 let charIndex = 0;
 
                 function typeWriter() {
@@ -1699,51 +1598,15 @@
                 typeWriter();
             }
 
-            // Mobile Menu Toggle
-            const mobileMenuBtn = document.querySelector('button[aria-controls="mobile-menu"]');
-            const mobileMenu = document.createElement('div');
-            mobileMenu.id = 'mobile-menu';
-            mobileMenu.className = 'fixed inset-0 z-40 bg-black/95 backdrop-blur-md md:hidden';
-            mobileMenu.innerHTML = `
-                <div class="flex flex-col items-center justify-center h-full space-y-8">
-                    <a href="/" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Home</a>
-                    <a href="/portfolio" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Portfolio</a>
-                    <a href="#services" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Solutions</a>
-                    <a href="/about" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">About</a>
-                    <a href="/blog" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors">Blog</a>
-                    <a href="/contact" class="px-8 py-4 bg-white text-black text-lg font-semibold rounded-full hover:bg-gray-200 transition-colors mt-8">
-                        Contact Us
-                    </a>
-                </div>
-            `;
-            mobileMenu.style.display = 'none';
-            document.body.appendChild(mobileMenu);
-
-            mobileMenuBtn.addEventListener('click', function() {
-                const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
-                mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
-
-                if (!isExpanded) {
-                    mobileMenu.style.display = 'block';
-                    setTimeout(() => mobileMenu.classList.add('opacity-100'), 10);
-                } else {
-                    mobileMenu.classList.remove('opacity-100');
-                    setTimeout(() => mobileMenu.style.display = 'none', 300);
-                }
-            });
-
-            // Close mobile menu when clicking on links
-            mobileMenu.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
-                    mobileMenu.classList.remove('opacity-100');
-                    setTimeout(() => mobileMenu.style.display = 'none', 300);
-                }
-            });
+            // Mobile menu interactions are handled in partials/navbar.blade.php.
 
             // Cookie Popup - Show only on page refresh
             console.log('Checking cookie popup...');
-            if (performance.navigation.type === 1) { // 1 means reload
+            const navEntry = typeof performance.getEntriesByType === 'function'
+                ? performance.getEntriesByType('navigation')[0]
+                : null;
+            const isReload = navEntry ? navEntry.type === 'reload' : (performance.navigation && performance.navigation.type === 1);
+            if (isReload) {
                 console.log('Page refreshed, showing cookie popup...');
                 const popup = document.getElementById('cookiePopup');
                 if (popup) {
@@ -1751,15 +1614,20 @@
                     popup.style.display = 'flex';
                     setTimeout(() => popup.classList.add('show'), 10);
 
-                    document.getElementById('acceptCookies').addEventListener('click', function() {
-                        popup.classList.remove('show');
-                        setTimeout(() => popup.style.display = 'none', 500);
-                    });
-
-                    document.getElementById('declineCookies').addEventListener('click', function() {
-                        popup.classList.remove('show');
-                        setTimeout(() => popup.style.display = 'none', 500);
-                    });
+                    const acceptBtn = document.getElementById('acceptCookies');
+                    const declineBtn = document.getElementById('declineCookies');
+                    if (acceptBtn) {
+                        acceptBtn.addEventListener('click', function() {
+                            popup.classList.remove('show');
+                            setTimeout(() => popup.style.display = 'none', 500);
+                        });
+                    }
+                    if (declineBtn) {
+                        declineBtn.addEventListener('click', function() {
+                            popup.classList.remove('show');
+                            setTimeout(() => popup.style.display = 'none', 500);
+                        });
+                    }
                 } else {
                     console.log('Popup not found!');
                 }
@@ -1768,7 +1636,8 @@
             }
 
             // Scroll Float Animation
-            gsap.registerPlugin(ScrollTrigger);
+            if (window.gsap && window.ScrollTrigger) {
+                gsap.registerPlugin(ScrollTrigger);
 
             // Function to split text into characters
             function splitTextIntoChars(text) {
@@ -1781,11 +1650,11 @@
             }
 
             // Apply animation to "Our Expertise" section
-            const expertiseText = document.getElementById('expertise-text');
-            if (expertiseText) {
-                const chars = splitTextIntoChars(expertiseText.textContent);
-                expertiseText.innerHTML = '';
-                chars.forEach(char => expertiseText.appendChild(char));
+                const expertiseText = document.getElementById('expertise-text');
+                if (expertiseText) {
+                    const chars = splitTextIntoChars(expertiseText.textContent);
+                    expertiseText.innerHTML = '';
+                    chars.forEach(char => expertiseText.appendChild(char));
 
                 gsap.fromTo(
                     chars,
@@ -1816,11 +1685,11 @@
             }
 
             // Apply animation to "Featured Work" section
-            const featuredText = document.getElementById('featured-text');
-            if (featuredText) {
-                const chars = splitTextIntoChars(featuredText.textContent);
-                featuredText.innerHTML = '';
-                chars.forEach(char => featuredText.appendChild(char));
+                const featuredText = document.getElementById('featured-text');
+                if (featuredText) {
+                    const chars = splitTextIntoChars(featuredText.textContent);
+                    featuredText.innerHTML = '';
+                    chars.forEach(char => featuredText.appendChild(char));
 
                 gsap.fromTo(
                     chars,
@@ -1851,11 +1720,11 @@
             }
 
             // Apply animation to "Latest Insights" section
-            const insightsText = document.getElementById('insights-text');
-            if (insightsText) {
-                const chars = splitTextIntoChars(insightsText.textContent);
-                insightsText.innerHTML = '';
-                chars.forEach(char => insightsText.appendChild(char));
+                const insightsText = document.getElementById('insights-text');
+                if (insightsText) {
+                    const chars = splitTextIntoChars(insightsText.textContent);
+                    insightsText.innerHTML = '';
+                    chars.forEach(char => insightsText.appendChild(char));
 
                 gsap.fromTo(
                     chars,
@@ -1886,11 +1755,11 @@
             }
 
             // Apply animation to "What Our Clients Say" section
-            const testimonialsText = document.getElementById('testimonials-text');
-            if (testimonialsText) {
-                const chars = splitTextIntoChars(testimonialsText.textContent);
-                testimonialsText.innerHTML = '';
-                chars.forEach(char => testimonialsText.appendChild(char));
+                const testimonialsText = document.getElementById('testimonials-text');
+                if (testimonialsText) {
+                    const chars = splitTextIntoChars(testimonialsText.textContent);
+                    testimonialsText.innerHTML = '';
+                    chars.forEach(char => testimonialsText.appendChild(char));
 
                 gsap.fromTo(
                     chars,
@@ -1921,11 +1790,11 @@
             }
 
             // Apply animation to testimonial text
-            const testimonialText = document.getElementById('testimonial-text');
-            if (testimonialText) {
-                const chars = splitTextIntoChars(testimonialText.textContent);
-                testimonialText.innerHTML = '';
-                chars.forEach(char => testimonialText.appendChild(char));
+                const testimonialText = document.getElementById('testimonial-text');
+                if (testimonialText) {
+                    const chars = splitTextIntoChars(testimonialText.textContent);
+                    testimonialText.innerHTML = '';
+                    chars.forEach(char => testimonialText.appendChild(char));
 
                 gsap.fromTo(
                     chars,
@@ -1953,6 +1822,7 @@
                         }
                     }
                 );
+                }
             }
         });
 
@@ -1991,6 +1861,7 @@
         function updatePartnerCarousel() {
             if (isMobilePartnerView() || !partnerSlides.length) return;
             const carousel = document.getElementById('partner-carousel');
+            if (!carousel) return;
             const slideWidth = partnerSlides[0].offsetWidth;
             carousel.style.transform = `translateX(-${currentPartnerSlide * slideWidth}px)`;
         }
@@ -2015,4 +1886,3 @@
 
 </body>
 </html>
-
