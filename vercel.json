@@ -1,6 +1,7 @@
 {
   "version": 2,
   "framework": null,
+  "outputDirectory": "public",
   "env": {
     "APP_NAME": "Things Access",
     "APP_ENV": "production",
