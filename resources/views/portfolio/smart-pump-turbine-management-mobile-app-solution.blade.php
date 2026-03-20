@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/things-access-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things-access-logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Smart Pump & Turbine Management – Mobile App Solution - ThingsAccess</title>
@@ -152,7 +152,7 @@
                 <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
                 </svg>
-                Back to Portfolio
+                Back to Solutions
             </a>
         </div>
     </section>
@@ -161,3 +161,7 @@
 
 </body>
 </html>
+
+
+
+

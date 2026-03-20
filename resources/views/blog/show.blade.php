@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/things-access-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things-access-logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $post->title }} - ThingsAccess Blog</title>
@@ -144,7 +144,8 @@
 
             <!-- Comments List -->
             <div class="space-y-8 mb-12">
-                @forelse($post->comments->where('approved', true) as $comment)
+            @php $approvedComments = $post->comments->where('approved', true); @endphp
+            @forelse($approvedComments as $comment)
                 <div class="glass-panel p-6 rounded-2xl">
                     <div class="flex items-start gap-4">
                         <div class="w-10 h-10 rounded-full bg-gradient-to-br from-gray-500 to-gray-700 flex items-center justify-center text-white font-bold text-sm">

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/things-access-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things-access-logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Things Access - IoT Solutions & Enterprise Software') }}</title>
@@ -27,7 +27,7 @@
     <!-- Performance & Security -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
-    <link rel="preload" href="{{ asset('images/things%20access%20logo.png') }}" as="image" type="image/png">
+    <link rel="preload" href="{{ asset('images/things-access-logo.png') }}" as="image" type="image/png">
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css?family=instrument-sans:300,400,500,600,700&display=swap" rel="stylesheet" />
@@ -953,7 +953,7 @@
                 <!-- Project Card 5 -->
                 <div class="project-card group cursor-pointer" data-category="mobile">
                     <div class="relative h-64 bg-gradient-to-br from-purple-900/40 to-black overflow-hidden">
-                    <img src="{{ asset('images/nfc.png') }}" alt="NFC Industrial Tracking App" class="w-full h-full object-cover">
+                   <img src="{{ asset('images/nfc/nfc-2.2.png') }}" alt="NFC Industrial Tracking App for Real-Time Production Monitoring" class="w-full h-full object-cover">
                         <div class="overlay absolute inset-0 bg-black/80 flex items-center justify-center">
                             <a href="/portfolio/nfc-industrial-tracking-app-production-monitoring" class="px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-colors">View Case Study</a>
                         </div>
@@ -2015,3 +2015,4 @@
 
 </body>
 </html>
+

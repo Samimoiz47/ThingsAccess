@@ -1,8 +1,8 @@
 <!-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/things-access-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things-access-logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Our Expertise - ThingsAccess - IoT Solutions & Enterprise Software</title>
@@ -560,3 +560,4 @@
 
 </body>
 </html> --> --> -->
+

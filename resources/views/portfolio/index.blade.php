@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/things-access-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things-access-logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio - ThingsAccess</title>
@@ -217,7 +217,7 @@
                 <!-- Project Card 5 -->
                 <div class="project-card rounded-2xl overflow-hidden group cursor-pointer" data-category="mobile" data-keywords="nfc industrial tracking app real-time production monitoring mobile app development hardware design api integration system monitoring">
                     <div class="relative h-64 bg-gradient-to-br from-purple-900/40 to-black overflow-hidden">
-                    <img src="{{ asset('images/nfc.png') }}" alt="NFC Industrial Tracking App for Real-Time Production Monitoring" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/nfc/nfc-2.2.png') }}" alt="NFC Industrial Tracking App for Real-Time Production Monitoring" class="w-full h-full object-cover">
                         <div class="overlay absolute inset-0 bg-black/80 flex items-center justify-center">
                             <a href="/portfolio/nfc-industrial-tracking-app-production-monitoring" class="px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-colors">View Case Study</a>
                         </div>
@@ -410,3 +410,7 @@
         }
     </style>
 </footer>
+
+
+
+

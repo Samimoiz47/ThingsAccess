@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="{{ asset('images/things%20access%20logo.png') }}">
-    <link rel="apple-touch-icon" href="{{ asset('images/things%20access%20logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/things-access-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/things-access-logo.png') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IoT Smart Home Automation System - ThingsAccess</title>
@@ -134,22 +134,32 @@
 
                        <!-- Image 2 -->
                         <div class="project-image">
-                            <img src="{{ asset('images/portfolio/iot-smart-home/iot-smart-home-1.jpg') }}" alt="IoT Smart Home System - Interface 1" class="w-full h-auto">
+                            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_600/v1767783767/catalog/2008841012577590605/ksipsoukg91qgfu6q6px.jpg" alt="IoT Smart Home System - Image 5" class="w-full h-auto">
                         </div>
 
                         <!-- Image 3 -->
                         <div class="project-image">
-                            <img src="{{ asset('images/portfolio/iot-smart-home/ir-sensor.png') }}" alt="IR Sensor" class="w-full h-auto">
+                            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_600/v1767784402/catalog/2008841012577590605/v4m2iepznr8qgkt3nwlj.jpg" alt="IoT Smart Home System - Image 6" class="w-full h-auto">
                         </div>
 
                         <!-- Image 4 -->
                         <div class="project-image">
-                            <img src="{{ asset('images/portfolio/iot-smart-home/power-plug.png') }}" alt="Power Plug" class="w-full h-auto">
+                            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_600/v1767784417/catalog/2008841012577590605/bha2efg29tez8x0i0qrz.jpg" alt="IoT Smart Home System - Image 7" class="w-full h-auto">
                         </div>
 
                         <!-- Image 5 -->
                         <div class="project-image">
-                            <img src="{{ asset('images/portfolio/iot-smart-home/sensor.png') }}" alt="Sensor" class="w-full h-auto">
+                            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_600/v1767784432/catalog/2008841012577590605/skk3qkuvoz4exm2wozo8.jpg" alt="IoT Smart Home System - Image 8" class="w-full h-auto">
+                        </div>
+
+                        <!-- Image 6 -->
+                        <div class="project-image">
+                            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_600/v1767784450/catalog/2008841012577590605/alf4divi0xbjire87vdj.jpg" alt="IoT Smart Home System - Image 9" class="w-full h-auto">
+                        </div>
+
+                        <!-- Image 7 -->
+                        <div class="project-image">
+                            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_600/v1767784466/catalog/2008841012577590605/ejcbaxm96g5zfpxo8lg2.jpg" alt="IoT Smart Home System - Image 10" class="w-full h-auto">
                         </div>
                         
 
@@ -167,7 +177,7 @@
                 <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
                 </svg>
-                Back to Portfolio
+                Back to Solutions
             </a>
         </div>
     </section>
@@ -176,3 +186,7 @@
 
 </body>
 </html>
+
+
+
+

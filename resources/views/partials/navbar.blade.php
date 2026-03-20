@@ -1,7 +1,7 @@
 <!-- Navigation Hub -->
 <header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between w-full max-w-7xl mx-auto px-6 py-6 transition-all duration-300" id="navbar" role="banner">
     <a href="/" class="flex items-center gap-2 cursor-pointer group z-20" aria-label="ThingsAccess - Go to homepage">
-        {!! App\Helpers\ImageHelper::optimizeImage('images/things%20access%20logo.png', ['loading' => 'eager', 'alt' => 'Things Access Logo', 'class' => 'h-12 w-auto', 'width' => '48', 'height' => '48']) !!}
+        {!! App\Helpers\ImageHelper::optimizeImage('images/things-access-logo.png', ['loading' => 'eager', 'alt' => 'Things Access Logo', 'class' => 'h-12 w-auto', 'width' => '48', 'height' => '48']) !!}
     </a>
 
     <nav class="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center space-x-1 glass-panel px-2 py-1.5 rounded-full z-20" role="navigation" aria-label="Main navigation">
@@ -98,3 +98,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+
