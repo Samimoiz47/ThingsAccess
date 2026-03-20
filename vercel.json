@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
+  "framework": null,
   "env": {
     "APP_NAME": "Things Access",
     "APP_ENV": "production",
@@ -21,10 +21,6 @@
     {
       "src": "/(css|js|images|videos|build|favicon.ico|robots.txt)(.*)",
       "dest": "/public/$1$2"
-    },
-    {
-      "src": "/",
-      "dest": "/api/index.php"
     },
     {
       "src": "/(.*)",
