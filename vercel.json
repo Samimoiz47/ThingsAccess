@@ -1,7 +1,6 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "public",
   "env": {
     "APP_NAME": "Things Access",
     "APP_ENV": "production",
@@ -20,7 +19,8 @@
   },
   "routes": [
     {
-      "handle": "filesystem"
+      "src": "/(css|js|images|videos|build|favicon.ico|robots.txt)(.*)",
+      "dest": "/public/$1$2"
     },
     {
       "src": "/(.*)",
